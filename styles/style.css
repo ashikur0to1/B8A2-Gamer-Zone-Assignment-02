@@ -1,0 +1,160 @@
+/* Work Sans Font From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background: #FFF;
+    padding: 30px 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+}
+
+.nav-logo-img{
+    width: 5.3rem;
+    height: 2.5rem;
+    padding-top: 10px;
+}
+
+.nav-logo h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0px 0px 0px 20px;
+}
+
+.nav-logo-title{
+    color: #FF42A5;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.nav-link > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a{
+    color: #3C354F;
+    text-decoration: none;
+}
+
+.follow-us-on{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px 20px;
+}
+
+.fa-brands{
+    font-size: 1.25rem;
+}
+
+.fa-youtube{
+    color: red;
+    margin-right: 0.75rem;
+}
+
+/* Banner Section CSS */
+
+.banner-section{
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.banner-content{
+    width: 50%;
+    text-align: center;
+    padding: 125px 0px;
+    background: url(../images/Group\ 14.png);
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-content h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-content h1{
+    font-size: 5.9rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 0px 10px 10px;
+}
+
+.instant-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-game-supporters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-circle-play, .fa-download{
+    color: #FF42A5;
+}
+
+.sign-in{
+    border-radius: 48px;
+    padding: 21px 40px;
+    background-color: #FF42A5;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.go-rogue{
+    border-radius: 48px;
+    padding: 21px 40px;
+    background-color: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.banner-content-button{
+    margin: 20px 0px;
+}
+
+
+
