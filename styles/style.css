@@ -113,18 +113,21 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 120px;
 }
 
 .no-download{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 180px;
 }
 
 .online-game-supporters{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 15px;
 }
 
 .fa-circle-play, .fa-download{
@@ -154,6 +157,47 @@ nav a{
 
 .banner-content-button{
     margin: 20px 0px;
+}
+
+
+/* Online-Games-Section CSS */
+
+.online-games-section{
+    padding: 80px 240px;
+}
+
+.online-games-description h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-games-description span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-description p{
+    text-align: center;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 16px 0px 48px 0px;
+}
+
+.online-games-card-section{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.online-games-card-section p{
+    padding: 10px 0px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
 }
 
 
