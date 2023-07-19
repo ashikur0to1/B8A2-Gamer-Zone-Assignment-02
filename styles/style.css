@@ -7,6 +7,8 @@
     margin: 0;
 }
 
+/* Nav Section CSS */
+
 nav{
     display: flex;
     background: #FFF;
@@ -39,10 +41,10 @@ nav{
     display: flex;
 }
 
-.footer-logo-img{
+.nav-logo-img{
     width: 5.3rem;
     height: 2.5rem;
-    padding-top: 10px;
+    padding: 10px 0px 0px 60px;
 }
 
 .nav-link > ul{
@@ -140,7 +142,7 @@ nav a{
     color: #FF42A5;
 }
 
-.sign-in{
+.sign-in-btn{
     border-radius: 48px;
     padding: 21px 40px;
     background-color: #FF42A5;
@@ -151,7 +153,7 @@ nav a{
     margin-right: 30px;
 }
 
-.go-rogue{
+.go-rogue-btn{
     border-radius: 48px;
     padding: 21px 40px;
     background-color: #4EC5F7;
@@ -169,7 +171,7 @@ nav a{
 /* Online-Games-Section CSS */
 
 .online-games-section{
-    padding: 80px 240px;
+    padding: 80px 240px 120px 240px;
 }
 
 .online-games-description h2{
@@ -244,7 +246,7 @@ nav a{
     margin-top: 1rem;
 }
 
-/* Play-Instantly-Section-CSS */
+/* Play Instantly Section CSS */
 
 .play-instantly-section{
     padding: 0px 240px;
@@ -273,7 +275,7 @@ nav a{
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.875rem;
-    padding-bottom: 310px;
+    padding: 20px 0px 310px 0px;
 }
 
 .play-instantly-image-section{
@@ -293,7 +295,7 @@ nav a{
     margin-left: 75px;
 }
 
-/* different-types-of-games-section CSS */
+/* Different-Types-Of-Games-Section CSS */
 
 .different-types-of-games-section{
     padding: 50px 250px;
@@ -341,7 +343,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0px 30px 0px;
+    padding: 60px 0px 40px 0px;
 }
 
 .footer-logo-img{
@@ -392,3 +394,252 @@ footer{
     padding: 30px 0px;
 }
 
+/* Responsive Media Queries */
+
+/* Mobile Devices Media Queries */
+@media screen and (max-width:576px) {
+
+    nav{
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+
+    .nav-logo-img {
+        padding: 10px 0px;
+    }
+
+    .nav-link{
+        flex-direction: column;
+    }
+    .li-for-mobile{
+        padding: 16px 0px;
+    }
+
+    .nav-link > ul{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .banner-section{
+        flex-direction: column;
+        flex-direction: column-reverse; 
+    }
+
+    .banner-content{
+        width: 100%;
+        padding: 50px 20px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+
+    .banner-image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .online-games-section {
+        padding: 20px 0px;
+    }
+
+    .online-games-description h2{
+        font-size: 2rem;
+    }
+
+    .online-games-description p{
+        font-size: 14px;
+    }
+
+    .online-games-card-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .play-instantly-section{
+        padding: 0px;
+        flex-direction: column;
+    }
+
+
+    .play-instantly-content-section {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .play-instantly-content-section h2 {
+        color: #0B0223;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2.75rem;
+    }
+
+    .play-instantly-content-section p{
+            padding-bottom: 40px;
+            font-size: 15px;
+    }
+
+    .play-instantly-image-section{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .play-instantly-image-section .down-image{
+        width: 200px;
+        height: auto;
+        bottom: 100px;
+    }
+    
+    .play-instantly-image-section .upper-image{
+        margin-left: 60px;
+        width: 360px;
+    }
+
+    .different-types-of-games-section {
+        padding: 20px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .games{
+        width: 130px;
+        height: auto;
+    }
+
+    .games img{
+        width: 20px;
+        height: auto;
+    }
+
+    .games h4{
+        font-size: 8px;
+    }
+
+    footer{
+        padding: 0px 40px;
+    }
+
+    .footer-option{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-option p{
+        padding: 15px 0px;
+        font-size: 12px;
+    }
+
+    .social-media-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .terms-and-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .terms-and-condition p{
+        padding: 10px 0px;
+    }
+
+}
+
+/* Tablet or Medium Devices Media Queries */
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    body{
+        width: 100%;
+    }
+
+    nav {
+        padding: 15px;
+    }
+    
+    .nav-logo-img {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .banner-section{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+    
+    .banner-image{
+        width: 100%;
+    }
+
+    .online-games-description h2 {
+        padding-top: 60px;
+        font-size: 2rem;
+    }
+
+    .online-games-description p {
+        font-size: 16px;
+        padding: 16px 0px 70px 0px;
+    }
+
+    .online-games-section{
+        padding: 20px;
+    }
+
+    .online-games-card-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-instantly-section{
+        width: 100%;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+
+    .play-instantly-content-section{
+        width: 100%;
+    }
+
+    .play-instantly-image-section{
+        width: 100%;
+    }
+
+    .play-instantly-content-section h2 {
+        padding-top: 50px;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+
+    .play-instantly-content-section p {
+            padding: 20px 0px 80px 0px
+        }    
+
+    .different-types-of-games-section {
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .games img{
+        width: 40px;
+        height: auto;
+    }
+
+    .games h4 {
+        font-size: 14px;
+    }
+    
+    footer{
+        padding: 50px;
+    }
+
+}
