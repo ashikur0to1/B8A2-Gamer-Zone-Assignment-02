@@ -15,23 +15,23 @@ nav{
     align-items: center;
 }
 
-.nav-logo{
+.logo{
     display: flex;
 }
 
-.nav-logo-img{
+.logo-img{
     width: 5.3rem;
     height: 2.5rem;
     padding-top: 10px;
 }
 
-.nav-logo h3{
+.logo h3{
     font-size: 2.8rem;
     font-weight: 700;
     margin: 0px 0px 0px 20px;
 }
 
-.nav-logo-title{
+.logo-title{
     color: #FF42A5;
 }
 
@@ -249,3 +249,38 @@ nav a{
     margin-left: 75px;
 }
 
+/* different-types-of-games-section CSS */
+
+.different-types-of-games-section{
+    padding: 50px 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FFF9FC;
+}
+
+.games{
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 10px 0px;;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.games h4{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 0.875rem;
+}
+
+.games:hover{
+    border: 1px solid #F948B2;
+    cursor: pointer;
+}
+
+.games h4:hover{
+    color: #F948B2;
+}
